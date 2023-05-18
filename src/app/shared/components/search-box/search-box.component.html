@@ -1,0 +1,4 @@
+<input type="text" [placeholder]="placeholder" class="form-control" (keyup.enter)="emitValue(txtInput.value)" #txtInput>
+<hr>
+<!-- #txtInput ES UNA REFERENCIA LOCAL. Por ej. en el emirCharacter() de add-character.component.html del proyecto 02-bases no le
+manda una ref. local, entiendo yo porque se usa el ngModel para hacer el binding -->
